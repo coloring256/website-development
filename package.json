@@ -7,7 +7,7 @@
     "postdev": "run-p postbuild postbuild:en postbuild:ru",
     "prebuild": "yarn clear",
     "build": "run-p build:*",
-    "postbuild": "cp -r ./root/common/** ./dist/ru && cp -r ./root/common ./dist/en",
+    "postbuild": "cp -r ./root/common/** ./dist/ru && cp -r ./root/common/** ./dist/en",
     "build:ru": "jekyll build --config _config.ru.yml",
     "postbuild:ru": "cp -r ./root/ru/** ./dist/ru",
     "build:en": "jekyll build --config _config.en.yml",
