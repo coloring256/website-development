@@ -1,0 +1,3 @@
+[submodule "static/game"]
+	path = static/game
+	url = git@github.com:coloring256/game.git
