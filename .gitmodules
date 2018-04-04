@@ -3,5 +3,7 @@
 	url = git@github.com:coloring256/game.git
 [submodule "dist/en"]
 	path = dist/en
+	url = git@github.com:coloring256/website-en.git
 [submodule "dist/ru"]
 	path = dist/ru
+	url = git@github.com:coloring256/website-ru.git
