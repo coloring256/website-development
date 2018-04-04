@@ -1,3 +1,7 @@
 [submodule "static/game"]
 	path = static/game
 	url = git@github.com:coloring256/game.git
+[submodule "dist/en"]
+	path = dist/en
+[submodule "dist/ru"]
+	path = dist/ru
